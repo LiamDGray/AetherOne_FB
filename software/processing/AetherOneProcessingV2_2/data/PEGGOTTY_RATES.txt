@@ -1,0 +1,283 @@
+RATES 		
+Muscular System 		
+Abasia: 60273		
+Friedreich's ataxia: 403479 		
+Ataxia: 40,212		
+Muscular Atrophy: 504599 		
+Spasms: 50432		
+Shock: 10.10.49		
+Sciatica: 50235		
+Compression: 30454 		
+Concussion: 90748		
+Head trauma: 90748 		
+Dupuytren's contracture: 604451 		
+Muscle contraction: 70251 		
+Contraction: 10.14		
+Contusion: 80799		
+Convulsion: 40437		
+Muscular Dystrophy: 50436 		
+Dystrophy: 60,542		
+Muscle fatigue: 40858 		
+Myopathic spasm: 203442 		
+Spasm: 30.110.4		
+Stretch: 40858		
+Rheumatic fever: 700744		
+AF: 70679		
+Fragility, Antonia: 404463 		
+Chronic rheumatism: 70.2 		
+Rheumatism: 700743 		
+Rheumatism: 80.2 		
+Sfrattura: 20228 		
+Sfratture: 70322 		
+Tenosynovitis: 907088 		
+Convulsive tics: 808337 		
+Vitality Nerve: 20,437 		
+Twist: 40856 		
+Stiff neck: 60462		
+Numbness (lethargy, apathy): 40,434		
+Tremor: 504342		
+Muscle Tissue: 599		
+Muscle sheath: 8327		
+Cardiac: 5101		
+Nerves Engines: 4311		
+Sensory nerves: 732 		
+Neuromuscular plaques: 413 		
+Sarcolemma: 229 		
+Regeneration Nerves: 471 		
+Regeneration Blood: 451.10 		
+Tendons: 646		
+Achilles tendon: 6414		
+Patellar tendon: 3448 		
+Aponeurosis 2451		
+Joints: 849		
+Metatarsal joints: 7533 		
+Vertebrae: 84867		
+Nasal Cavity: 285		
+Mastoid: 2843		
+Maxillary: 157		
+Breast: 8836		
+Forearm: 2131		
+Right ankle: 172		
+Left ankle: 1892		
+Ligaments: 854		
+Adductor Long: 7251		
+Great adductor: 4238		
+Brachial biceps: 8548 		
+Extensive Lateral: 7872		
+Vasto: 7892		
+Anal: 6001		
+Cardiac: 25		
+Orbicularis of the mouth: 2222 		
+Rectal: 228		
+Diaphragm muscle: 8459 		
+Back Muscles: 3633 		
+Intercostal: 356		
+External intercostal: 3113 		
+Internal intercostal: 3112 		
+Sphincter muscles: 87 		
+Big Round: 645		
+Posterior tibial: 3733		
+Abdominal Transverse: 7678		
+Keystone: 475		
+Brachial triceps: 216		
+Calcagno: 84134		
+Keystone: 84,288		
+Bladder: 2297		
+Mouth: 2222		
+Ileocecal: 827		
+Urethral: 4301		
+Vaginal: 95		
+Tarsal: 5522		
+Myalgia: 40,599		
+Muscle tone: 20559		
+External intercostal muscles: 3113 		
+Internal intercostal muscles: 3112 		
+Aperture: 8044		
+Hamstring: 9836		
+Deltoid: 9331 		
+Erector spinae: 7215 		
+Flexor carpi: 4774 		
+Gluteal Great: 5599 		
+Gluteal Middle: 5799 		
+Gluteal Small: 5399 		
+Pyramidal: 6355 		
+Abdominal: 93107 		
+Peristalsis: 565 		
+Quadriceps femoris: 4615 		
+Big rhomboid 1327 		
+Sacrospinous: 4442 		
+Sartorio: 5335 		
+Semimembranosus: 4711 		
+Semitendinosus: 33559 		
+Lumbar: 84193 		
+Popliteal: 2243		
+Popliteal internal: 2244 		
+External carotid artery: 2,242 		
+Internal carotid artery: 2,275 		
+Skeletal System 		
+Ankylosis: 40646		
+Infectious arthritis: 50558 		
+Degenerative arthritis bone: 503849		
+RA: 403343		
+Tuberculous arthritis: 402954 		
+Arthritis: 50689		
+Arthritis: 7004276 		
+Hypertrophy: 80408 		
+Inflammation: 40		
+Stiffness: 60.33		
+Injury: 808,871		
+Lumbago: 40599193 		
+Malformation: 204315		
+Bad Posture: 80.67 		
+Osteoarthritis: 50,684 		
+Osteoma: 10,042 		
+Osteomyelitis: 4084599 		
+Periarthritis: 507949 		
+Periostitis: 40359		
+Kyphosis: 403453		
+Scoliosis: 8065297		
+Bursitis: 407439 		
+Calcification: 30,367		
+Pain in the coccyx: 305235 		
+Epiphysitis: 405484 		
+Spondylitis: 8097297 		
+Fracture: 90.7		
+Herniated Disc: 70641585 		
+Spinal Cord Injury: 702,979 		
+Dislocation: 10.84		
+Necrosis: 50.77		
+Degenerative osteoarthritis: 503849		
+Myeloid leukemia: 3047		
+Fat cells: 6449		
+Rickets: 30845		
+Synovitis: 302455		
+Cartilage: 154		
+Hyaline cartilage: 1302		
+Lunate cartilage: 9003		
+Cartilage ensiform: 2382 		
+Fibrocartilage: 1432		
+Periosteum: 359		
+Marrow: 1084		
+Collarbone: 84693		
+Coccyx: 84188		
+Spine: 28497		
+Spine: 2975		
+Dita: 322		
+Teeth: 499		
+Intervertebral discs: 1585 		
+Patella: 3433		
+Mandible: 1736		
+Shoulders: 7353		
+Thumb: 4413		
+Pugni: 10,041		
+Articulation Hip: 1775		
+Ankles 1892		
+Dorsal interosseous (hand): 5412 		
+Dorsal interosseous (foot): 5421 		
+Splenius NECK: 234		
+Scapula: 84397		
+Sphenoid: 84432		
+Sternum: 84263		
+Bracket: 122		
+Femur: 84114		
+Perone: 84329		
+Synovial fluid: 61.10		
+Ligaments: 854 		
+Sternoclavicular: 33931		
+Hand: 26		
+Hock: 84573		
+Synovial membranes: 445 		
+Molars: 241		
+Phalanges: 84422 		
+Metacarpal: 84245 		
+Hock: 84573 		
+Scaphoid: 84621 		
+Tarsus: 847737 		
+Radio: 84345 		
+Ulna: 84464 		
+Homer: 84353 		
+Collarbone: 8452 		
+Scapula: 84397 		
+Sternum: 84263 		
+Iliac: 84374 		
+Erector spinae: 7215 		
+Tibia (Arm): 84,319 		
+Once Cranial: 84.10.7 		
+Skull: 846837 		
+Occipital: 841164		
+ Sphenoid: 84432 		
+Ethmoid: 84993 		
+Jaw: 84872		
+Palate: 841354		
+Parietal: 8429		
+Femur: 84114		
+Perone: 84329		
+Knee: 84121		
+Splenic: 621		
+Cervical: 84692 		
+Posterior cervical: 4444 		
+Coccyx: 84188 		
+Sacred: 84854		
+Dorsal Thoracic: 84183 		
+Hyoid bone: 84448 		
+Peritoneum: 758		
+Hyoid bone: 84448 		
+Peritoneum: 758		
+Right leg: 42		
+Left leg: 43		
+Neck: 523		
+Right foot: 21632		
+Left Foot: 216321 		
+Pelvis: 84525		
+Feet: 2,163 		
+Ileus sacral: 923 		
+Ischium: 84835		
+Pelvis: 84525 		
+Symphysis pubis: 84165 		
+Ear: 9		
+Middle ear: 13372		
+Ovaries: 265		
+Epiphysis: 90532		
+Paralysis: 50.42		
+Parkinson's disease: 504252 		
+Paraplegia: 705587		
+Paresis: 70.73		
+Paresthesia Berger: 50.48 		
+Polio: 90663		
+Neuritis: 700134 		
+Ascending paralysis: 80476 		
+Paralysis: 50225		
+Aortic 9431		
+Brachial: 326		
+Throat: 617		
+Phrenic: 641		
+Gastric: 656 		
+Gastroduodenal: 922 		
+Glossopharyngeal: 1155 		
+Hemorrhoidal: 4521 		
+Hepatic: 4831		
+Hypogastric: 135 		
+Laryngeal: 5302		
+Lumbar: 138		
+Inferior mesenteric: 167 		
+Superior mesenteric: 745 		
+Occipital: 948 		
+Ophthalmic: 53		
+Ovarian: 543		
+Pancreatic 1397 		
+Pancreatic-duodenal: 757 		
+Pelvic 1364 		
+Perivascular: 4431 		
+Pyloric: 3223 		
+Prostatic: 699 		
+Pulmonary: 1398 		
+Heart deep: 5422 		
+Cardiac Surface: 253 		
+Brain: 9759 		
+Mucosa instestinale: 744 		
+Timpano: 895		
+Thyroid lower: 845 		
+Thyroid higher: 843 		
+Tonsillar: 64378 		
+Spinal: 5508 Bladder: 637 		
+Sacral segment: 82 		
