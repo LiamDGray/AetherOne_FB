@@ -226,13 +226,13 @@ void setup() {
     //.addButton("aaaaaaaaaaaaaaaaa")
     .addButton("agriculture")
     .addButton("check items")
-     //----------.addButton("check file") function was never active 
+     //.addButton("check file") function was never active 
     .addButton("copy")
     .addButton("clear screen")
     .addButton("clear")
     .addButton("connect")
     .addButton("disconnect");
-     //----------.addButton("potency");
+     //.addButton("potency");
      //----------3th buttons row 
   radionicsElements.startAtX = 1173;
   radionicsElements.startAtY = 7;   //---------- was 10;
@@ -241,6 +241,7 @@ void setup() {
       .addButton("Peggotty rate")    //---------- generate a peggotty rate and enbed it in the peggotty You can also just put a rate in the peggotty squairs 
       .addButton("clear peggotty")
       .addButton("photography")
+      .addButton("select image")
       .addButton("paste image")
       .addButton("clear image")
       .addButton("broadcast image")
