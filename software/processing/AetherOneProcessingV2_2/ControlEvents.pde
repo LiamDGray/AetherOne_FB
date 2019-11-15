@@ -673,7 +673,7 @@ if ("nowhealing".equals(command)) {
   }
    if ("ommanipadmehum".equals(command)) {
       cp5.get(Textfield.class, "Input").setText("Stella");
-    String ommanipadmehum = ("Om Mani Padme Hum 3798534 Increase Universal Life Force Healing Energies for the Highest Good 9700838 Ho'oponopono 2027604 I'm sorry, please forgive me, I thank you, I love you 9792090 Open and Centre the Spiritual Heart (AP) FEMALE 1409494 I AM The Light of the World 1320239 I AM divine health thamba I am a money miracle thamba I am a harmony thamba I am a happiness miracle thamba I am a money miracle thamba I am receiving energy of 'Audio Rejuvenation' by Subtle energy sciences with 100 times amplification GENE 47  28.4-53.1   81.4-86.6   80.5-85.4, GENE 61  56.4-83.6   32.6-56.5   82.6-54.5 GENE 55  57.5-91.8  84.3-84.6   28.5-80.7, martijn houdt van mij");
+    String ommanipadmehum = ("Om Mani Padme Hum 3798534 Increase Universal Life Force Healing Energies for the Highest Good 9700838 Ho'oponopono 2027604 I'm sorry, please forgive me, I thank you, I love you 9792090 Open and Centre the Spiritual Heart (AP) FEMALE 1409494 I AM The Light of the World 1320239 I AM divine health thamba I am a money miracle thamba I am a harmony thamba I am a happiness miracle thamba I am a money miracle thamba I am receiving energy of 'Audio Rejuvenation' by Subtle energy sciences with 100 times amplification");
     String manualRate = cp5.get(Textfield.class, "Input").getText();
       cp5.get(Textfield.class, "Output").setText("LOVE" + " " + ommanipadmehum);
        //----------analyseList(signatures);
@@ -928,7 +928,7 @@ if ("lloyd".equals(command)) {    //----------if ("autobroadcast".equals(command
     
      //----------if ("ommanipadmehum".equals(command)) {
      //----------    cp5.get(Textfield.class, "Input").setText("Stella");
-     //----------    String ommanipadmehum = ("Om Mani Padme Hum 3798534 Increase Universal Life Force Healing Energies for the Highest Good 9700838 Ho'oponopono 2027604 I'm sorry, please forgive me, I thank you, I love you 9792090 Open and Centre the Spiritual Heart (AP) FEMALE 1409494 I AM The Light of the World 1320239 I AM divine health thamba I am a money miracle thamba I am a harmony thamba I am a happiness miracle thamba I am a money miracle thamba I am receiving energy of 'Audio Rejuvenation' by Subtle energy sciences with 100 times amplification GENE 47  28.4-53.1   81.4-86.6   80.5-85.4, GENE 61  56.4-83.6   32.6-56.5   82.6-54.5 GENE 55  57.5-91.8  84.3-84.6   28.5-80.7, martijn houdt van mij");
+     //----------    String ommanipadmehum = ("Om Mani Padme Hum 3798534 Increase Universal Life Force Healing Energies for the Highest Good 9700838 Ho'oponopono 2027604 I'm sorry, please forgive me, I thank you, I love you 9792090 Open and Centre the Spiritual Heart (AP) FEMALE 1409494 I AM The Light of the World 1320239 I AM divine health thamba I am a money miracle thamba I am a harmony thamba I am a happiness miracle thamba I am a money miracle thamba I am receiving energy of 'Audio Rejuvenation' by Subtle energy sciences with 100 times amplification");
      //----------    String manualRate = cp5.get(Textfield.class, "Input").getText();
      //----------    cp5.get(Textfield.class, "Output").setText("LOVE" + " " + ommanipadmehum);
      //----------     //----------analyseList(signatures);
