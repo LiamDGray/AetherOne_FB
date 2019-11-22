@@ -100,8 +100,7 @@ boolean fullscreen = false;
 int lastWidth = 0;
 int lastHeight = 0;
 boolean arduinoConnected = false;
-//----------int arduinoIndex = 0;    //---------- dubbel 
-//----------String arduinoMessage = "";    //---------- dubbel
+
 //----------END ADD DD 19 mei 2019
 
 RadionicsElements radionicsElements;
@@ -137,8 +136,8 @@ Map<String, Integer> ratesDoubles = new HashMap<String, Integer>();
 int gvCounter = 0;
 boolean stopBroadcasting = false;
 
-                                                  //----------PWindow win;
-int arduinoIndex = 0;                            //---------- ADD DD 19 mei 2019 
+                                                 //----------PWindow win;
+int arduinoIndex = 0;                            //----------ADD DD 19 mei 2019 
 String arduinoMessage = "";                      //----------ADD DD 19 mei 2019 
 /**
  * Get current time in milliseconds
@@ -260,7 +259,7 @@ void setup() {
   radionicsElements
     .initPeggotty (330, 73);    
 radionicsElements
-   .addKnob("Max Hits", 216, 66, 35, 1, 100, 10, null)   
+   .addKnob("Max Hits", 216, 66, 35, 1, 100, 100, null) // .addKnob("Max Hits", 216, 66, 35, 1, 100, 10, null)   
     .addKnob("Broadcast Repeats", 216, 166, 35, 1, 99999, 72, null)   
     .addKnob("Delay", 145, 183, 25, 1, 250, 25, null);
     
