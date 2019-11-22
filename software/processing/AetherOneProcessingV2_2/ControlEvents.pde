@@ -1,5 +1,4 @@
-/**
- /**
+/*
  * TAB CONTROLEVENTS 
  * ControlP5 event listener
  */
@@ -143,6 +142,8 @@ public void controlEvent(ControlEvent theEvent) {
       rate.rate = signatures[core.getRandomNumber(signatures.length)];
       rateList.add(rate);
       anahataSignature += rate.rate;
+      String[] lines = loadStrings(selectedDatabase);
+      analyseList(lines);
     }
 
     cp5.get(Textfield.class, "Output").setText(anahataSignature);
@@ -169,6 +170,8 @@ public void controlEvent(ControlEvent theEvent) {
       rate.rate = signatures[core.getRandomNumber(signatures.length)];
       rateList.add(rate);
       homeopathySignature += rate.rate;
+      String[] lines = loadStrings(selectedDatabase);
+      analyseList(lines);
     }
 
     cp5.get(Textfield.class, "Output").setText(homeopathySignature);
@@ -196,6 +199,8 @@ public void controlEvent(ControlEvent theEvent) {
       rate.rate = signatures[core.getRandomNumber(signatures.length)];
       rateList.add(rate);
       biologicalSignature += rate.rate;
+      String[] lines = loadStrings(selectedDatabase);
+      analyseList(lines);
     }
 
     cp5.get(Textfield.class, "Output").setText(biologicalSignature);
@@ -232,6 +237,8 @@ public void controlEvent(ControlEvent theEvent) {
       rate.rate = signatures[core.getRandomNumber(signatures.length)];
       rateList.add(rate);
       symbolismSignature += rate.rate;
+      String[] lines = loadStrings(selectedDatabase);
+      analyseList(lines);
     }
 
     cp5.get(Textfield.class, "Output").setText(symbolismSignature);
@@ -267,6 +274,8 @@ if ("essences".equals(command)) {
       rate.rate = signatures[core.getRandomNumber(signatures.length)];
       rateList.add(rate);
       essencesSignature += rate.rate;
+      String[] lines = loadStrings(selectedDatabase);
+      analyseList(lines);
     }
 
     cp5.get(Textfield.class, "Output").setText(essencesSignature);
@@ -291,7 +300,7 @@ if ("essences".equals(command)) {
   }
   */
   
-     //---------- uit VERSIE 2.2
+// uit VERSIE 2.2
 
   if ("grabovoi".equals(command)) {
 
@@ -311,6 +320,8 @@ if ("essences".equals(command)) {
       rate.rate = signatures[core.getRandomNumber(signatures.length)];
       rateList.add(rate);
       grabovoiSignature += rate.rate;
+      String[] lines = loadStrings(selectedDatabase);
+      analyseList(lines);
     }
 
     cp5.get(Textfield.class, "Output").setText(grabovoiSignature);
@@ -346,6 +357,8 @@ if ("essences".equals(command)) {
       rate.rate = signatures[core.getRandomNumber(signatures.length)];
       rateList.add(rate);
       energySignature += rate.rate;
+      String[] lines = loadStrings(selectedDatabase);
+      analyseList(lines);
     }
 
     cp5.get(Textfield.class, "Output").setText(energySignature);
@@ -540,8 +553,8 @@ if ("essences".equals(command)) {
     return;
   }
 
-     //----------==============================================
-     //---------- uit VERSIE 2.2
+//=============================================
+//---------- uit VERSIE 2.2
 if ("acupuncture".equals(command)) {
 
     String [] signatures = loadStrings(sketchPath() + "/data/ENERGY/ENERGY_ACUPUNCTURE_RATES.txt");
@@ -559,6 +572,8 @@ if ("acupuncture".equals(command)) {
       rate.rate = signatures[core.getRandomNumber(signatures.length)];
       rateList.add(rate);
       acupunctureSignature += rate.rate;
+      String[] lines = loadStrings(selectedDatabase);
+     analyseList(lines);
     }
     cp5.get(Textfield.class, "Output").setText(acupunctureSignature);
     broadcast(acupunctureSignature);
@@ -584,6 +599,8 @@ if ("nowhealing".equals(command)) {
       rate.rate = signatures[core.getRandomNumber(signatures.length)];
       rateList.add(rate);
       nowhealingSignature += rate.rate;
+      String[] lines = loadStrings(selectedDatabase);
+     analyseList(lines);
     }
 
     cp5.get(Textfield.class, "Output").setText(nowhealingSignature);
@@ -609,6 +626,8 @@ if ("nowhealing".equals(command)) {
      rate.rate = signatures[core.getRandomNumber(signatures.length)];   //----------rate.rate = signatures[core.getRandomNumber(signatures.lines)];   //----------rate.rate = signatures[core.getRandomNumber(signatures.length)];
      rateList.add(rate);
      divineSignature += rate.rate;
+     String[] lines = loadStrings(selectedDatabase);
+     analyseList(lines);
      }
     
     cp5.get(Textfield.class, "Output").setText(divineSignature);
@@ -635,6 +654,8 @@ if ("nowhealing".equals(command)) {
      rate.rate = signatures[core.getRandomNumber(signatures.length)];   //----------rate.rate = signatures[core.getRandomNumber(signatures.lines)];   //----------rate.rate = signatures[core.getRandomNumber(signatures.length)];
      rateList.add(rate);
      raSignature += rate.rate;
+     String[] lines = loadStrings(selectedDatabase);
+     analyseList(lines);
     
     cp5.get(Textfield.class, "Output").setText(raSignature);
     broadcast(raSignature);
@@ -662,6 +683,8 @@ if ("nowhealing".equals(command)) {
       rate.rate = signatures[core.getRandomNumber(signatures.length)];
       rateList.add(rate);
       korblerSignature += rate.rate;
+      String[] lines = loadStrings(selectedDatabase);
+      analyseList(lines);
     }
 
     cp5.get(Textfield.class, "Output").setText(korblerSignature);
@@ -687,7 +710,7 @@ if ("nowhealing".equals(command)) {
 return;
 }
 
-   //----------BIOLOGICAL_HAIR_RATES
+//----------BIOLOGICAL_HAIR_RATES
 
 if ("hair".equals(command)) {    //---------- add 22 feb 
 
@@ -706,6 +729,8 @@ if ("hair".equals(command)) {    //---------- add 22 feb
      rate.rate = signatures[core.getRandomNumber(signatures.length)];   //----------rate.rate = signatures[core.getRandomNumber(signatures.lines)];   //----------rate.rate = signatures[core.getRandomNumber(signatures.length)];
      rateList.add(rate);
      hairSignature += rate.rate;
+     String[] lines = loadStrings(selectedDatabase);
+     analyseList(lines);
      }
     cp5.get(Textfield.class, "Output").setText(hairSignature);
     broadcast(hairSignature);
@@ -714,7 +739,8 @@ if ("hair".equals(command)) {    //---------- add 22 feb
    return;
   }
   
-     //----------ENERGY_BUSBY_STONES.txt
+  //----------ENERGY_BUSBY_STONES.txt
+     
   if ("busby".equals(command)) {    //---------- add 22 feb 
 
     String[] signatures = loadStrings(sketchPath() + "/data/ENERGY/ENERGY_BUSBY_STONES.txt");   //----------String[] signatures = loadStrings(sketchPath() + "/data/LLOYD/LLOYD_MEAR.txt");
@@ -727,16 +753,18 @@ if ("hair".equals(command)) {    //---------- add 22 feb
     
     arduinoConnection.broadcasting = true;
     String busbySignature = "";
-     for (int i=0; i<19; i++) {    // Stella ---------- βαζει ολα τα δεκαεφτα ρατε στο αουτπουτ.
+     for (int i=0; i<19; i++) {    // Stella βαζει ολα τα δεκαεφτα ρατε στο αουτπουτ.
      RateObject rate = new RateObject();
-     rate.rate = signatures[core.getRandomNumber(signatures.length)];   // Stella ----------rate.rate = signatures[core.getRandomNumber(signatures.lines)];   //----------rate.rate = signatures[core.getRandomNumber(signatures.length)];
+     rate.rate = signatures[core.getRandomNumber(signatures.length)];   // Stella --- rate.rate = signatures[core.getRandomNumber(signatures.lines)];   //----------rate.rate = signatures[core.getRandomNumber(signatures.length)];
      rateList.add(rate);
      busbySignature += rate.rate;
+     String[] lines = loadStrings(selectedDatabase);
+     analyseList(lines);
      }
     cp5.get(Textfield.class, "Output").setText(busbySignature);
     broadcast(busbySignature);
     broadcast(busbySignature.trim());
-       //----------progress = 0; add 12 feb 2019
+   //----------progress = 0; add 12 feb 2019
    return;
   }
   
@@ -744,7 +772,7 @@ if ("hair".equals(command)) {    //---------- add 22 feb
 
     String[] signatures = loadStrings(sketchPath() + "/data/BIOLOGICAL/BIOLOGICAL_PETE_RATES.txt");   //----------String[] signatures = loadStrings(sketchPath() + "/data/LLOYD/LLOYD_MEAR.txt");
     selectedDatabase = new File(sketchPath() + "/data/BIOLOGICAL/BIOLOGICAL_PETE_RATES.txt");
-       //---------- String[] signatures = getRatesFromListsWhichBeginsWithName("ENERGY_DIVINE_CODES");    //----------    String[] lines = getRatesFromListsWhichBeginsWithName("LLOYD_MEAR");
+    //---------- String[] signatures = getRatesFromListsWhichBeginsWithName("ENERGY_DIVINE_CODES");    //----------    String[] lines = getRatesFromListsWhichBeginsWithName("LLOYD_MEAR");
     
     analyseList(signatures);    //----------analyseList(lines);
     
@@ -752,11 +780,13 @@ if ("hair".equals(command)) {    //---------- add 22 feb
     
     arduinoConnection.broadcasting = true;
     String peteSignature = "";
-     for (int i=0; i<19; i++) {    //---------- βαζει ολα τα δεκαεφτα ρατε στο αουτπουτ.
+     for (int i=0; i<19; i++) {    // βαζει ολα τα δεκαεφτα ρατε στο αουτπουτ.
      RateObject rate = new RateObject();
-     rate.rate = signatures[core.getRandomNumber(signatures.length)];   //----------rate.rate = signatures[core.getRandomNumber(signatures.lines)];   //----------rate.rate = signatures[core.getRandomNumber(signatures.length)];
+     rate.rate = signatures[core.getRandomNumber(signatures.length)];   //rate.rate = signatures[core.getRandomNumber(signatures.lines)];   //----------rate.rate = signatures[core.getRandomNumber(signatures.length)];
      rateList.add(rate);
      peteSignature += rate.rate;
+     String[] lines = loadStrings(selectedDatabase);
+     analyseList(lines);
      }
     cp5.get(Textfield.class, "Output").setText(peteSignature);
     broadcast(peteSignature);
@@ -783,6 +813,8 @@ if ("hair".equals(command)) {    //---------- add 22 feb
      rate.rate = signatures[core.getRandomNumber(signatures.length)];   //----------rate.rate = signatures[core.getRandomNumber(signatures.lines)];   //----------rate.rate = signatures[core.getRandomNumber(signatures.length)];
      rateList.add(rate);
      univercalsourceSignature += rate.rate;
+     String[] lines = loadStrings(selectedDatabase);
+     analyseList(lines);
      }
     cp5.get(Textfield.class, "Output").setText(univercalsourceSignature);
     broadcast(univercalsourceSignature);
@@ -813,6 +845,8 @@ if ("lloyd".equals(command)) {    //----------if ("autobroadcast".equals(command
       rate.rate = signatures[core.getRandomNumber(signatures.length)];
       rateList.add(rate);
      lloydSignature += rate.rate;   //----------autobroadcastSignature += rate.rate;
+     String[] lines = loadStrings(selectedDatabase);
+     analyseList(lines);
     }
 
     cp5.get(Textfield.class, "Output").setText(lloydSignature);           //----------cp5.get(Textfield.class, "Output").setText(autobroadcastSignature);
@@ -837,6 +871,8 @@ if ("lloyd".equals(command)) {    //----------if ("autobroadcast".equals(command
       rate.rate = signatures[core.getRandomNumber(signatures.length)];
       rateList.add(rate);
       allSignature += rate.rate;
+      String[] lines = loadStrings(selectedDatabase);
+      analyseList(lines);
     }
     cp5.get(Textfield.class, "Output").setText(allSignature);
     broadcast(allSignature);
@@ -858,17 +894,13 @@ if ("lloyd".equals(command)) {    //----------if ("autobroadcast".equals(command
     rateList.clear();
     String autobroadcastSignature = "";
     
-       //---------- ------------- de volgende lijnen zijn vervangen door de code verderop    //----------for (int i=0; i<17; i++) { 
-       //---------- String autobroadcastSignature = signatures[core.getRandomNumber(signatures.length)]
-       //---------- + " " + signatures[core.getRandomNumber(signatures.length)]
-       //----------+ " " + signatures[core.getRandomNumber(signatures.length)];
-       //---------- monitorText = "AUTOBROADCASTING signature:\n" + autobroadcastSignature;
-    
     for (int i=0; i<19; i++) {
       RateObject rate = new RateObject();
       rate.rate = signatures[core.getRandomNumber(signatures.length)];
       rateList.add(rate);
       autobroadcastSignature += rate.rate;
+      String[] lines = loadStrings(selectedDatabase);
+      analyseList(lines);
     }
 
     cp5.get(Textfield.class, "Output").setText(autobroadcastSignature);
@@ -877,32 +909,6 @@ if ("lloyd".equals(command)) {    //----------if ("autobroadcast".equals(command
     return;
   }
 
-     //----------=====================================
-
-  //if ("rates".equals(command)) {
-
-  //  String [] signatures = loadStrings(sketchPath() + "/data/RATES/RATES_CLYSTALS_BASE_44_KöRBLER_LIST.txt.txt");
-  //  selectedDatabase = new File(sketchPath() + "/data/RATES/RATES_CLYSTALS_BASE_44_KöRBLER_LIST.txt.txt");
-  //  println(signatures.length);
-  //  println(core.getRandomNumber(signatures.length));
-  //  rateList.clear();
-   
-  //   analyseList(signatures);
-    
-  //  String ratesSignature = "";
-
-  //  for (int i=0; i<17; i++) {
-  //    RateObject rate = new RateObject();
-  //    rate.rate = signatures[core.getRandomNumber(signatures.length)];
-  //    rateList.add(rate);
-  //    ratesSignature += rate.rate;
-  //  }
-
-  //  cp5.get(Textfield.class, "Output").setText(ratesSignature);
-  //  arduinoConnection.broadcasting = true;
-  //  broadcast(ratesSignature);
-  //  return;
-  //}
 
    //----------GENERATE rate CODE GENERATE RATE DEZE WERJ WEL de eerste niet
    if ("generate rate".equals(command)) {
@@ -921,31 +927,17 @@ if ("lloyd".equals(command)) {    //----------if ("autobroadcast".equals(command
 }
   
     cp5.get(Textfield.class, "Output"). setText("Love" + " " + rates);    //---------- dit is niet wat ik helemaal wil... maar ik moet nog overna denken
-       //----------cp5.get(Textfield.class, "Output"). setText("Love" + " " + rateList);
+    //----------cp5.get(Textfield.class, "Output"). setText("Love" + " " + rateList);
     arduinoConnection.broadcasting = true;
     broadcast(generateRate);
     return; 
-    
-     //----------if ("ommanipadmehum".equals(command)) {
-     //----------    cp5.get(Textfield.class, "Input").setText("Stella");
-     //----------    String ommanipadmehum = ("Om Mani Padme Hum 3798534 Increase Universal Life Force Healing Energies for the Highest Good 9700838 Ho'oponopono 2027604 I'm sorry, please forgive me, I thank you, I love you 9792090 Open and Centre the Spiritual Heart (AP) FEMALE 1409494 I AM The Light of the World 1320239 I AM divine health thamba I am a money miracle thamba I am a harmony thamba I am a happiness miracle thamba I am a money miracle thamba I am receiving energy of 'Audio Rejuvenation' by Subtle energy sciences with 100 times amplification");
-     //----------    String manualRate = cp5.get(Textfield.class, "Input").getText();
-     //----------    cp5.get(Textfield.class, "Output").setText("LOVE" + " " + ommanipadmehum);
-     //----------     //----------analyseList(signatures);
-     //----------  String ommanipadmehumRate = cp5.get(Textfield.class, "Output").getText();
-     //----------  String ommanipadmehumSignature = manualRate + " " + ommanipadmehumRate;
-     //----------  arduinoConnection.broadcasting = true;
-     //----------  broadcast(ommanipadmehumSignature.trim());
-     //----------  broadcast(ommanipadmehumSignature);
-    
-    
-   //----------return;
+  
 }
 
    //----------=====================================
    
    
-     //---------- Switch Simulation Mode
+  //---------- Switch Simulation Mode
   if ("TRNG / PRNG".equals(command)) {
     if (trngMode) {
       trngMode = false;
