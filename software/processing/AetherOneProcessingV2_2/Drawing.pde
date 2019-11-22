@@ -76,17 +76,19 @@ void draw() {
     fill(164, 197, 249);
     text("Analysis & Spectrum Analysis",10,313);
   }
+  // Guide Wang: If max hits value too large (i.e. 100), the screen will be filled with a lot of blocks.
+
+//for (String key :ratesDoubles.keySet()) {
+//    Integer level = ratesDoubles.get(key);
+//    stroke(0,25 * level,0);
+//    if (key.equals(cp5.get(Textfield.class, "Output").getText())) {
+//      stroke(255);
+//    }
+//    line(xRD,720,xRD,720 - (level*15)); line(xRD,760,xRD,760 - (level*15));
+//    xRD++;
+//    if (xRD >= 592) xRD = 0;   //----------if (xRD >= 599) xRD = 0;
+//  }
   
-  for (String key :ratesDoubles.keySet()) {
-    Integer level = ratesDoubles.get(key);
-    stroke(0,25 * level,0);
-    if (key.equals(cp5.get(Textfield.class, "Output").getText())) {
-      stroke(255);
-    }
-    line(xRD,720,xRD,720 - (level*15)); line(xRD,760,xRD,760 - (level*15));
-    xRD++;
-    if (xRD >= 590) xRD = 0; 
-  }
   
   int yRate = 330;  
  
@@ -109,7 +111,7 @@ void draw() {
         selectRate = true;
       }
       
-      fill(rateObject.level * 25);
+     // fill(rateObject.level * 25);
       text(rateObject.level, 50,yRate); 
 
       if (selectRate) {
@@ -118,10 +120,17 @@ void draw() {
         fill(150);
       } else if (rateObject.gv > generalVitality && rateObject.gv > 1000) {
         fill(32, 255, 24);
-      } else if (rateObject.gv > generalVitality) {
+      //      } else if (rateObject.gv > generalVitality) {
+//        fill(28, 204, 22);
+//      } else if (rateObject.gv < generalVitality) {
+//        fill(255, 105, 30);
+//MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+//Guide Wang change the GV > 100 to be RED, during GV+- 100 is BLUE (balance conditions) 
+      } else if (rateObject.gv > (generalVitality+100)) {
         fill(28, 204, 22);
-      } else if (rateObject.gv < generalVitality) {
+      }  else if (rateObject.gv > (generalVitality-100)) {
         fill(255, 105, 30);
+//MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM     
       } else {
         fill(12, 134, 178);
       }
