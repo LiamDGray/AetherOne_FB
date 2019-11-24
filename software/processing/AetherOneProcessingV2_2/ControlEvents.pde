@@ -142,14 +142,13 @@ public void controlEvent(ControlEvent theEvent) {
       rate.rate = signatures[core.getRandomNumber(signatures.length)];
       rateList.add(rate);
       anahataSignature += rate.rate;
-      String[] lines = loadStrings(selectedDatabase);
-      analyseList(lines);
+      
     }
 
     cp5.get(Textfield.class, "Output").setText(anahataSignature);
-    broadcast(anahataSignature);
-    broadcast(anahataSignature.trim());
     arduinoConnection.broadcasting = true;
+    broadcast(anahataSignature.trim());
+    broadcast(anahataSignature);
     return;
   }
   
@@ -170,8 +169,7 @@ public void controlEvent(ControlEvent theEvent) {
       rate.rate = signatures[core.getRandomNumber(signatures.length)];
       rateList.add(rate);
       homeopathySignature += rate.rate;
-      String[] lines = loadStrings(selectedDatabase);
-      analyseList(lines);
+      
     }
 
     cp5.get(Textfield.class, "Output").setText(homeopathySignature);
@@ -199,8 +197,7 @@ public void controlEvent(ControlEvent theEvent) {
       rate.rate = signatures[core.getRandomNumber(signatures.length)];
       rateList.add(rate);
       biologicalSignature += rate.rate;
-      String[] lines = loadStrings(selectedDatabase);
-      analyseList(lines);
+      
     }
 
     cp5.get(Textfield.class, "Output").setText(biologicalSignature);
@@ -237,8 +234,7 @@ public void controlEvent(ControlEvent theEvent) {
       rate.rate = signatures[core.getRandomNumber(signatures.length)];
       rateList.add(rate);
       symbolismSignature += rate.rate;
-      String[] lines = loadStrings(selectedDatabase);
-      analyseList(lines);
+      
     }
 
     cp5.get(Textfield.class, "Output").setText(symbolismSignature);
@@ -274,8 +270,7 @@ if ("essences".equals(command)) {
       rate.rate = signatures[core.getRandomNumber(signatures.length)];
       rateList.add(rate);
       essencesSignature += rate.rate;
-      String[] lines = loadStrings(selectedDatabase);
-      analyseList(lines);
+      
     }
 
     cp5.get(Textfield.class, "Output").setText(essencesSignature);
@@ -320,8 +315,7 @@ if ("essences".equals(command)) {
       rate.rate = signatures[core.getRandomNumber(signatures.length)];
       rateList.add(rate);
       grabovoiSignature += rate.rate;
-      String[] lines = loadStrings(selectedDatabase);
-      analyseList(lines);
+      
     }
 
     cp5.get(Textfield.class, "Output").setText(grabovoiSignature);
@@ -357,8 +351,7 @@ if ("essences".equals(command)) {
       rate.rate = signatures[core.getRandomNumber(signatures.length)];
       rateList.add(rate);
       energySignature += rate.rate;
-      String[] lines = loadStrings(selectedDatabase);
-      analyseList(lines);
+      
     }
 
     cp5.get(Textfield.class, "Output").setText(energySignature);
@@ -572,8 +565,7 @@ if ("acupuncture".equals(command)) {
       rate.rate = signatures[core.getRandomNumber(signatures.length)];
       rateList.add(rate);
       acupunctureSignature += rate.rate;
-      String[] lines = loadStrings(selectedDatabase);
-     analyseList(lines);
+      
     }
     cp5.get(Textfield.class, "Output").setText(acupunctureSignature);
     broadcast(acupunctureSignature);
@@ -599,8 +591,7 @@ if ("nowhealing".equals(command)) {
       rate.rate = signatures[core.getRandomNumber(signatures.length)];
       rateList.add(rate);
       nowhealingSignature += rate.rate;
-      String[] lines = loadStrings(selectedDatabase);
-     analyseList(lines);
+      
     }
 
     cp5.get(Textfield.class, "Output").setText(nowhealingSignature);
@@ -626,8 +617,7 @@ if ("nowhealing".equals(command)) {
      rate.rate = signatures[core.getRandomNumber(signatures.length)];   //----------rate.rate = signatures[core.getRandomNumber(signatures.lines)];   //----------rate.rate = signatures[core.getRandomNumber(signatures.length)];
      rateList.add(rate);
      divineSignature += rate.rate;
-     String[] lines = loadStrings(selectedDatabase);
-     analyseList(lines);
+     
      }
     
     cp5.get(Textfield.class, "Output").setText(divineSignature);
@@ -654,8 +644,7 @@ if ("nowhealing".equals(command)) {
      rate.rate = signatures[core.getRandomNumber(signatures.length)];   //----------rate.rate = signatures[core.getRandomNumber(signatures.lines)];   //----------rate.rate = signatures[core.getRandomNumber(signatures.length)];
      rateList.add(rate);
      raSignature += rate.rate;
-     String[] lines = loadStrings(selectedDatabase);
-     analyseList(lines);
+     
     
     cp5.get(Textfield.class, "Output").setText(raSignature);
     broadcast(raSignature);
@@ -683,8 +672,7 @@ if ("nowhealing".equals(command)) {
       rate.rate = signatures[core.getRandomNumber(signatures.length)];
       rateList.add(rate);
       korblerSignature += rate.rate;
-      String[] lines = loadStrings(selectedDatabase);
-      analyseList(lines);
+     
     }
 
     cp5.get(Textfield.class, "Output").setText(korblerSignature);
@@ -729,8 +717,7 @@ if ("hair".equals(command)) {    //---------- add 22 feb
      rate.rate = signatures[core.getRandomNumber(signatures.length)];   //----------rate.rate = signatures[core.getRandomNumber(signatures.lines)];   //----------rate.rate = signatures[core.getRandomNumber(signatures.length)];
      rateList.add(rate);
      hairSignature += rate.rate;
-     String[] lines = loadStrings(selectedDatabase);
-     analyseList(lines);
+     
      }
     cp5.get(Textfield.class, "Output").setText(hairSignature);
     broadcast(hairSignature);
@@ -758,8 +745,7 @@ if ("hair".equals(command)) {    //---------- add 22 feb
      rate.rate = signatures[core.getRandomNumber(signatures.length)];   // Stella --- rate.rate = signatures[core.getRandomNumber(signatures.lines)];   //----------rate.rate = signatures[core.getRandomNumber(signatures.length)];
      rateList.add(rate);
      busbySignature += rate.rate;
-     String[] lines = loadStrings(selectedDatabase);
-     analyseList(lines);
+     
      }
     cp5.get(Textfield.class, "Output").setText(busbySignature);
     broadcast(busbySignature);
@@ -785,8 +771,7 @@ if ("hair".equals(command)) {    //---------- add 22 feb
      rate.rate = signatures[core.getRandomNumber(signatures.length)];   //rate.rate = signatures[core.getRandomNumber(signatures.lines)];   //----------rate.rate = signatures[core.getRandomNumber(signatures.length)];
      rateList.add(rate);
      peteSignature += rate.rate;
-     String[] lines = loadStrings(selectedDatabase);
-     analyseList(lines);
+    
      }
     cp5.get(Textfield.class, "Output").setText(peteSignature);
     broadcast(peteSignature);
@@ -813,8 +798,7 @@ if ("hair".equals(command)) {    //---------- add 22 feb
      rate.rate = signatures[core.getRandomNumber(signatures.length)];   //----------rate.rate = signatures[core.getRandomNumber(signatures.lines)];   //----------rate.rate = signatures[core.getRandomNumber(signatures.length)];
      rateList.add(rate);
      univercalsourceSignature += rate.rate;
-     String[] lines = loadStrings(selectedDatabase);
-     analyseList(lines);
+     
      }
     cp5.get(Textfield.class, "Output").setText(univercalsourceSignature);
     broadcast(univercalsourceSignature);
@@ -845,8 +829,7 @@ if ("lloyd".equals(command)) {    //----------if ("autobroadcast".equals(command
       rate.rate = signatures[core.getRandomNumber(signatures.length)];
       rateList.add(rate);
      lloydSignature += rate.rate;   //----------autobroadcastSignature += rate.rate;
-     String[] lines = loadStrings(selectedDatabase);
-     analyseList(lines);
+     
     }
 
     cp5.get(Textfield.class, "Output").setText(lloydSignature);           //----------cp5.get(Textfield.class, "Output").setText(autobroadcastSignature);
@@ -871,8 +854,7 @@ if ("lloyd".equals(command)) {    //----------if ("autobroadcast".equals(command
       rate.rate = signatures[core.getRandomNumber(signatures.length)];
       rateList.add(rate);
       allSignature += rate.rate;
-      String[] lines = loadStrings(selectedDatabase);
-      analyseList(lines);
+     
     }
     cp5.get(Textfield.class, "Output").setText(allSignature);
     broadcast(allSignature);
